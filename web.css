@@ -1,0 +1,283 @@
+
+.container {
+    padding: 0;
+    border: 4px solid greenyellow;
+} 
+.main-area 
+{
+    padding-top: 40px;
+    width: 8%;
+    float: left;
+}
+  
+.sidebar 
+{
+    width: 92%;
+    padding: 0;
+    font-size: 90px;
+    color:yellow;
+    text-align: center;
+}
+  
+.fix 
+{
+    clear: both;
+}
+  
+.group:before,
+.group:after 
+{
+    content: "";
+    display: table;
+  
+}
+  
+.group:after 
+{
+    clear: both;
+  
+}
+  
+.group 
+{
+    zoom: 1;
+}
+
+li
+{
+    font-size: 100px;
+}
+
+.head
+{
+    font-size: 100px;
+    color:blueviolet;
+    background-color: yellow;
+    padding: 25px;
+    border: 4px solid greenyellow;
+    width: 250px;
+}
+.heads
+{
+    font-size: 100px;
+    border: 4px solid greenyellow;
+    color:blueviolet;
+    background-color: yellow;
+}
+
+body
+{
+    font-family: "Comic Sans MS", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+}
+label
+{
+    color:white;
+}
+
+h2
+{
+    color: lawngreen;
+}
+
+tbody
+{
+    color: white;
+}
+
+thead
+{
+    color:yellow;
+}
+
+tfoot
+{
+    color: rgb(0, 255, 0);
+}
+
+legend
+{
+    color: rgb(0, 255, 0);
+}
+
+footer
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+p
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100px;
+    color:greenyellow;
+}
+
+table
+{
+    font-size: 150px;
+}
+
+.t1
+{
+    font-size: 100px;
+    color: yellow;
+}
+
+.t2
+{
+    color: palevioletred;
+}
+
+.t3
+{
+    color:yellow;
+}
+
+.headers
+{
+    width: 80%;
+    border: 4px solid greenyellow;
+}
+
+.head
+{
+    width: 8%;
+    float: left;
+    font-size: 100px;
+    color:blueviolet;
+    background-color: yellow;
+    border: 4px solid greenyellow;
+    width: 250px;
+    margin-top: 60px;
+}
+
+.music
+{
+    font-size: 100px;
+    color:blueviolet;
+    background-color: yellow;
+    border: 4px solid greenyellow;
+    width: 650px;
+}
+
+.musical
+{
+    font-size: 100px;
+    color:blueviolet;
+    background-color: yellow;
+    border: 4px solid greenyellow;
+    width: 750px;
+}
+
+.navs ul
+{
+    margin: 0;
+    padding: 0px 0px;
+}
+
+.navs li
+{
+    padding-right: 35px;
+    
+    float: left;
+    list-style: none;
+}
+
+.navs a
+{
+    font-size: 91px;
+    color: yellow;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 4px solid greenyellow;
+    border-top: none;
+}
+
+.navs a:hover
+{
+    color: greenyellow;
+}
+
+p
+{
+    margin-top: 0px;
+    max-width: 75%;
+    font-size: 50px;
+}
+
+body h1
+{
+    font-size: 100px;
+    color: yellow;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.ima
+{
+    color:blueviolet;
+    border: 4px solid greenyellow;
+    width: 1100px;
+    height: 420px;
+}
+
+.imas2
+{
+    width: 40%;
+    float: right;
+}
+
+.ima p
+{
+    width: 60%;
+    height: 100%;
+}
+
+.spear
+{
+    float: right;
+    width: 50%;
+    border: 4px solid greenyellow;
+    border-left: none;
+    height: 779.5px;
+    margin: 50px 0px;
+}
+
+.spear img
+{
+    margin: 20px 20px;
+    padding-left: 20px;
+    height: 685px;
+}
+
+.spear p
+{
+    margin-left: 50px;
+}
+
+.spears
+{
+    width: 50%;
+    border: 4px solid greenyellow;
+    margin: 50px 0px;
+}
+
+.shield
+{
+    margin-left: 20px;
+    height: 705px;
+}
+
+.vid-spear
+{
+    border: 4px solid greenyellow;
+}
+
+.vid-sheild
+{
+    border: 4px solid greenyellow;
+}
