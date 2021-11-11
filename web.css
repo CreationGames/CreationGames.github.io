@@ -1,71 +1,4 @@
-@font-face {
-    font-family: 'comic_neuebold';
-    src: url('comicneue-bold-webfont.woff2') format('woff2'),
-         url('comicneue-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-
-
-
-
-@font-face {
-    font-family: 'comic_neuebold_italic';
-    src: url('comicneue-bolditalic-webfont.woff2') format('woff2'),
-         url('comicneue-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'comic_neueitalic';
-    src: url('comicneue-italic-webfont.woff2') format('woff2'),
-         url('comicneue-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'comic_neuelight';
-    src: url('comicneue-light-webfont.woff2') format('woff2'),
-         url('comicneue-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'comic_neuelight_italic';
-    src: url('comicneue-lightitalic-webfont.woff2') format('woff2'),
-         url('comicneue-lightitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'comic_neueregular';
-    src: url('comicneue-regular-webfont.woff2') format('woff2'),
-         url('comicneue-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 .container {
     padding: 0;
@@ -76,10 +9,12 @@
     padding-top: 40px;
     width: 8%;
     float: left;
+    display: block;
 }
   
 .sidebar 
 {
+    display: block;
     width: 92%;
     padding: 0;
     font-size: 90px;
@@ -137,6 +72,9 @@ body
 {
     font-family: "Comic Sans MS", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: blueviolet;
+    background-image: url(Bg.png);
+    background-repeat: repeat-y;
+    background-size: 1530px 1000px;
 }
 label
 {
@@ -287,14 +225,16 @@ body h1
 
 .ima
 {
-    color:blueviolet;
+    color:greenyellow;
     border: 4px solid greenyellow;
     width: 1100px;
     height: 420px;
+    background-image: linear-gradient(to bottom, blueviolet, violet);
 }
 
 .imas2
 {
+    display: block;
     width: 40%;
     float: right;
 }
@@ -320,11 +260,13 @@ body h1
     margin: 20px 20px;
     padding-left: 20px;
     height: 685px;
+    display: block;
 }
 
 .spear p
 {
     margin-left: 50px;
+    display: block;
 }
 
 .spears
@@ -332,12 +274,14 @@ body h1
     width: 50%;
     border: 4px solid greenyellow;
     margin: 50px 0px;
+    display: block;
 }
 
 .shield
 {
     margin-left: 20px;
     height: 705px;
+    display: block;
 }
 
 .vid-spear
@@ -349,3 +293,146 @@ body h1
 {
     border: 4px solid greenyellow;
 }
+
+@media screen and (max-width:700px)
+{
+    .main-area,
+    .spear,
+    .spears,
+    .sidebar
+    {
+        border: 4px solid greenyellow;
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0px 0px;
+        margin-left: 0px;
+    }
+
+    .shield
+    {
+        display: block;
+        max-width: 95%;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+    .spear img
+    {
+        display: block;
+        max-width: 90%;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+}
+
+@media screen and (max-width:700px)
+{
+    .navs li
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navs a
+    {
+        border: 4px solid greenyellow;
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width:700px)
+{
+
+    .imas2
+    {
+        display: none;
+    }
+
+    .ima p
+    {
+        border: 0px 0px;
+        padding: 0px 0px;
+        text-align: center;
+        font-size: 255%;
+    }
+
+    .ima
+    {
+        align-items: center;
+        padding: 0px 0px;
+        margin: 0px 0px;
+        max-width: 100%;
+        height: 455px;
+        border: 4px solid greenyellow;
+    }
+
+}
+
+@media screen and (max-width:700px)
+{
+    .vid-sheild
+    {
+        max-width: 100%;
+    }
+
+    .vid-spear
+    {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    .navs li
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navs a
+    {
+        border: 4px solid greenyellow;
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    .main-area
+    {
+        display: none;
+        border: 0px solid greenyellow;
+    }
+}
+
+@media screen and (max-width:500px)
+{
+
+    .imas2
+    {
+        display: none;
+    }
+
+    .ima p
+    {
+        border: 0px 0px;
+        padding: 0px 0px;
+        text-align: center;
+        font-size: 255%;
+        float:none;
+    }
+
+    .ima
+    {
+        align-items: center;
+        padding: 0px 0px;
+        margin: 0px 0px;
+        max-width: 100%;
+        height: 705px;
+        border: 4px solid greenyellow;
+    }
+
+}
+
