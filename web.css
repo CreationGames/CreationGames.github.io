@@ -72,9 +72,6 @@ body
 {
     font-family: "Comic Sans MS", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: blueviolet;
-    background-image: url(Bg.png);
-    background-repeat: repeat-y;
-    background-size: 1530px 1000px;
 }
 label
 {
