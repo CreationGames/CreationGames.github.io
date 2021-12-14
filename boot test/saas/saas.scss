@@ -1,0 +1,16 @@
+$prime: #0000FF;
+
+body
+{
+    background-color: gray;
+}
+
+.box
+{
+    padding: 10px;
+    h1
+    {
+        color: $prime;
+        margin: 10px;
+    }
+}
